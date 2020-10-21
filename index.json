@@ -1,42 +1,26 @@
 {
-  "title": "Katacoda test",
-  "description": "",
+  "title": "Demo Scenario",
+  "description": "A Sample Scenario",
   "difficulty": "Beginner",
-  "time": "60 minutes",
+  "time": "2 minutes",
   "details": {
-    "steps": [
-      {
-        "title": "Step 1",
-        "text": "step1.md"
-      },
-      {
-        "title": "Step 2",
-        "text": "step2.md"
-      },
-      {
-        "title": "Step 3",
-        "text": "step3.md"
-      },
-      {
-        "title": "Step 4",
-        "text": "step4.md"
-      },
-      {
-        "title": "Step 5",
-        "text": "step5.md"
-      }
-    ],
+    "steps": [{
+      "title": "Step 1 - Run Command",
+      "text": "step1.md"
+    }],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "credits": ""
     },
     "finish": {
       "text": "finish.md"
     }
   },
   "environment": {
-    "uilayout": "editor-terminal"
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\u001b[m\r\n"
   },
   "backend": {
-    "imageid": "git"
+    "imageid": "bash"
   }
 }
